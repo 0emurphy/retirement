@@ -1,23 +1,21 @@
 //Function declarations
 function retire(age){
-    let (year = 2017); //set current year
-    let (retirementAge = 65); //set current retirement age
-    let (diff = retirementAge - age);
+    let year = 2017; //set current year
+    let retirementAge = 65; //set current retirement age
+    let diff = retirementAge - age;
 
     //write three separate conditional statements to say when you can take out money.
 
     if (diff < 0){
-
     console.log("Your check will come soon");//first if your age is older than the retirementAge
     }
 
     if (diff == 0){
-
-    console.log("Welcome to retirement! Your check is in th mail.");//second if your age is equal to the retirementAge
+    console.log("Welcome to retirement! Your check is in the mail.");//second if your age is equal to the retirementAge
     }
-    if (diff > 0){
 
-    console.log("Sorry, get back to work, bud")//third if your age is younger than the retirementAge
+    if (diff > 0){
+    console.log("Sorry, get back to work, bud");//third if your age is younger than the retirementAge
     }
 }
 
